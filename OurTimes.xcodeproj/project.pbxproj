@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		440024161BD76A5B00249078 /* Calender.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440024151BD76A5B00249078 /* Calender.storyboard */; settings = {ASSET_TAGS = (); }; };
 		440024181BD76A7000249078 /* Note.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440024171BD76A7000249078 /* Note.storyboard */; settings = {ASSET_TAGS = (); }; };
+		440024221BD7829C00249078 /* 日曆.png in Resources */ = {isa = PBXBuildFile; fileRef = 440024191BD7829C00249078 /* 日曆.png */; settings = {ASSET_TAGS = (); }; };
+		440024231BD7829C00249078 /* 書櫃 + books.png in Resources */ = {isa = PBXBuildFile; fileRef = 4400241A1BD7829C00249078 /* 書櫃 + books.png */; settings = {ASSET_TAGS = (); }; };
+		440024241BD7829C00249078 /* 燈.png in Resources */ = {isa = PBXBuildFile; fileRef = 4400241B1BD7829C00249078 /* 燈.png */; settings = {ASSET_TAGS = (); }; };
+		440024251BD7829C00249078 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4400241C1BD7829C00249078 /* ball.png */; settings = {ASSET_TAGS = (); }; };
+		440024261BD7829C00249078 /* BGimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4400241D1BD7829C00249078 /* BGimage.png */; settings = {ASSET_TAGS = (); }; };
+		440024271BD7829C00249078 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 4400241E1BD7829C00249078 /* dog.png */; settings = {ASSET_TAGS = (); }; };
+		440024281BD7829C00249078 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 4400241F1BD7829C00249078 /* map.png */; settings = {ASSET_TAGS = (); }; };
+		440024291BD7829C00249078 /* Note.png in Resources */ = {isa = PBXBuildFile; fileRef = 440024201BD7829C00249078 /* Note.png */; settings = {ASSET_TAGS = (); }; };
+		4400242A1BD7829C00249078 /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 440024211BD7829C00249078 /* photos.png */; settings = {ASSET_TAGS = (); }; };
 		4403FCB21BC3F18E00974B7B /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4403FCB11BC3F18E00974B7B /* Map.storyboard */; };
 		C1F10AE01BB3D4AB0094CBB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F10ADF1BB3D4AB0094CBB1 /* main.m */; };
 		C1F10AE31BB3D4AB0094CBB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F10AE21BB3D4AB0094CBB1 /* AppDelegate.m */; };
@@ -22,6 +31,15 @@
 /* Begin PBXFileReference section */
 		440024151BD76A5B00249078 /* Calender.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calender.storyboard; sourceTree = "<group>"; };
 		440024171BD76A7000249078 /* Note.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Note.storyboard; sourceTree = "<group>"; };
+		440024191BD7829C00249078 /* 日曆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日曆.png"; sourceTree = "<group>"; };
+		4400241A1BD7829C00249078 /* 書櫃 + books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "書櫃 + books.png"; sourceTree = "<group>"; };
+		4400241B1BD7829C00249078 /* 燈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "燈.png"; sourceTree = "<group>"; };
+		4400241C1BD7829C00249078 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		4400241D1BD7829C00249078 /* BGimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGimage.png; sourceTree = "<group>"; };
+		4400241E1BD7829C00249078 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		4400241F1BD7829C00249078 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		440024201BD7829C00249078 /* Note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Note.png; sourceTree = "<group>"; };
+		440024211BD7829C00249078 /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
 		4403FCB11BC3F18E00974B7B /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Map.storyboard; path = ../Map.storyboard; sourceTree = "<group>"; };
 		C1F10ADB1BB3D4AB0094CBB1 /* OurTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F10ADF1BB3D4AB0094CBB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4400242B1BD782A400249078 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				440024191BD7829C00249078 /* 日曆.png */,
+				4400241A1BD7829C00249078 /* 書櫃 + books.png */,
+				4400241B1BD7829C00249078 /* 燈.png */,
+				4400241C1BD7829C00249078 /* ball.png */,
+				4400241D1BD7829C00249078 /* BGimage.png */,
+				4400241E1BD7829C00249078 /* dog.png */,
+				4400241F1BD7829C00249078 /* map.png */,
+				440024201BD7829C00249078 /* Note.png */,
+				440024211BD7829C00249078 /* photos.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		C1F10AD21BB3D4AB0094CBB1 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +100,7 @@
 		C1F10ADD1BB3D4AB0094CBB1 /* OurTimes */ = {
 			isa = PBXGroup;
 			children = (
+				4400242B1BD782A400249078 /* images */,
 				C1F10AE11BB3D4AB0094CBB1 /* AppDelegate.h */,
 				C1F10AE21BB3D4AB0094CBB1 /* AppDelegate.m */,
 				C1F10AE41BB3D4AB0094CBB1 /* ViewController.h */,
@@ -148,11 +183,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4400242A1BD7829C00249078 /* photos.png in Resources */,
+				440024271BD7829C00249078 /* dog.png in Resources */,
 				440024161BD76A5B00249078 /* Calender.storyboard in Resources */,
+				440024281BD7829C00249078 /* map.png in Resources */,
+				440024291BD7829C00249078 /* Note.png in Resources */,
 				C1F10AF11BB3D4AB0094CBB1 /* LaunchScreen.storyboard in Resources */,
 				440024181BD76A7000249078 /* Note.storyboard in Resources */,
 				C1F10AEE1BB3D4AB0094CBB1 /* Assets.xcassets in Resources */,
 				C1F10AE91BB3D4AB0094CBB1 /* Main.storyboard in Resources */,
+				440024231BD7829C00249078 /* 書櫃 + books.png in Resources */,
+				440024251BD7829C00249078 /* ball.png in Resources */,
+				440024241BD7829C00249078 /* 燈.png in Resources */,
+				440024221BD7829C00249078 /* 日曆.png in Resources */,
+				440024261BD7829C00249078 /* BGimage.png in Resources */,
 				4403FCB21BC3F18E00974B7B /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

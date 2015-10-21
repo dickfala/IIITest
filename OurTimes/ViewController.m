@@ -16,12 +16,43 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)calenderButton:(id)sender {
+}
+
+- (IBAction)noteButton:(id)sender {
+}
+
+- (IBAction)mapButton:(id)sender {
+}
+
+-(void)presentToStoryBoardWithName:(NSString*)name
+                     segueName:(NSString*)segue{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:name bundle:nil];
+    
+    id targetVC = [storyboard instantiateViewControllerWithIdentifier:segue];
+    
+    [self presentViewController:targetVC animated:true completion:nil];
+}
+
+-(void)pushToStoryBoardWithName:(NSString*)name
+                      segueName:(NSString*)segue{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:name bundle:nil];
+    
+    id targetVC = [storyboard instantiateViewControllerWithIdentifier:segue];
+    
+    [self.navigationController pushViewController:targetVC animated:true];
+}
+
 
 @end

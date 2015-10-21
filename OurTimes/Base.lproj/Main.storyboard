@@ -2,6 +2,9 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,13 +16,115 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGimage.png" translatesAutoresizingMaskIntoConstraints="NO" id="TzE-tW-aW7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbo-dr-ElG">
+                                <rect key="frame" x="280" y="380" width="103" height="197"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Rbo-dr-ElG" secondAttribute="height" multiplier="109:207" id="EDr-36-W9Z"/>
+                                </constraints>
+                                <state key="normal" image="燈.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5x-IJ-GnP">
+                                <rect key="frame" x="52" y="70" width="103" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="y5x-IJ-GnP" secondAttribute="height" multiplier="103:106" id="Ypb-Kz-hCJ"/>
+                                </constraints>
+                                <state key="normal" image="日曆.png"/>
+                                <connections>
+                                    <action selector="calenderButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LdQ-Dg-wKr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfF-mw-ceG">
+                                <rect key="frame" x="228" y="73" width="166" height="223"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GfF-mw-ceG" secondAttribute="height" multiplier="35:47" id="Les-sz-29x"/>
+                                </constraints>
+                                <state key="normal" image="map.png"/>
+                                <connections>
+                                    <action selector="mapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CTa-a3-UeP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCl-gP-lDf">
+                                <rect key="frame" x="13" y="356" width="103" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aCl-gP-lDf" secondAttribute="height" multiplier="95:88" id="Tau-YJ-ZGY"/>
+                                </constraints>
+                                <state key="normal" image="Note.png"/>
+                                <connections>
+                                    <action selector="noteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lL6-kZ-Jhf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TeB-75-tJI">
+                                <rect key="frame" x="342" y="662" width="52" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TeB-75-tJI" secondAttribute="height" multiplier="59:61" id="Oz2-SV-pn7"/>
+                                </constraints>
+                                <state key="normal" image="ball.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vF4-0l-Vcv">
+                                <rect key="frame" x="3" y="429" width="242" height="172"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vF4-0l-Vcv" secondAttribute="height" multiplier="41:29" id="Yft-nA-edd"/>
+                                </constraints>
+                                <state key="normal" image="書櫃 + books.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOi-eE-KlJ">
+                                <rect key="frame" x="-5" y="557" width="104" height="193"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dOi-eE-KlJ" secondAttribute="height" multiplier="99:185" id="10A-m3-I5W"/>
+                                </constraints>
+                                <state key="normal" image="dog.png"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TeB-75-tJI" secondAttribute="bottom" constant="20" id="0Aw-1w-P2n"/>
+                            <constraint firstItem="GfF-mw-ceG" firstAttribute="centerY" secondItem="TzE-tW-aW7" secondAttribute="centerY" multiplier="1/2" id="4AQ-0J-uPJ"/>
+                            <constraint firstItem="GfF-mw-ceG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="3/2" id="5kL-tQ-ixT"/>
+                            <constraint firstItem="aCl-gP-lDf" firstAttribute="width" secondItem="TzE-tW-aW7" secondAttribute="width" multiplier="1/4" id="AWZ-Ho-9lF"/>
+                            <constraint firstItem="y5x-IJ-GnP" firstAttribute="centerY" secondItem="TzE-tW-aW7" secondAttribute="centerY" multiplier="1/3" id="JDc-dY-E4b"/>
+                            <constraint firstItem="Rbo-dr-ElG" firstAttribute="centerY" secondItem="TzE-tW-aW7" secondAttribute="centerY" multiplier="13/10" id="KhD-BF-GUS"/>
+                            <constraint firstItem="dOi-eE-KlJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-5" id="NQJ-fc-f4Y"/>
+                            <constraint firstItem="vF4-0l-Vcv" firstAttribute="centerY" secondItem="TzE-tW-aW7" secondAttribute="centerY" multiplier="14/10" id="PKg-lX-q9R"/>
+                            <constraint firstItem="vF4-0l-Vcv" firstAttribute="centerX" secondItem="TzE-tW-aW7" secondAttribute="centerX" multiplier="3/5" id="PpR-2F-4QM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TzE-tW-aW7" secondAttribute="bottom" id="Q4d-qy-e41"/>
+                            <constraint firstItem="TzE-tW-aW7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="S2S-Sa-XCp"/>
+                            <constraint firstItem="TeB-75-tJI" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="THT-JC-nzW"/>
+                            <constraint firstItem="y5x-IJ-GnP" firstAttribute="width" secondItem="TzE-tW-aW7" secondAttribute="width" multiplier="1/4" id="VCL-P7-9fe"/>
+                            <constraint firstAttribute="bottom" secondItem="dOi-eE-KlJ" secondAttribute="bottom" constant="-14" id="bj9-jo-MJZ"/>
+                            <constraint firstItem="TeB-75-tJI" firstAttribute="width" secondItem="TzE-tW-aW7" secondAttribute="width" multiplier="1/8" id="buT-fV-y53"/>
+                            <constraint firstItem="y5x-IJ-GnP" firstAttribute="centerX" secondItem="TzE-tW-aW7" secondAttribute="centerX" multiplier="1/2" id="fIZ-vm-400"/>
+                            <constraint firstItem="vF4-0l-Vcv" firstAttribute="top" secondItem="aCl-gP-lDf" secondAttribute="bottom" constant="-23" id="hTc-jp-cdp"/>
+                            <constraint firstItem="Rbo-dr-ElG" firstAttribute="width" secondItem="TzE-tW-aW7" secondAttribute="width" multiplier="1/4" id="ixn-Yz-IoX"/>
+                            <constraint firstItem="vF4-0l-Vcv" firstAttribute="leading" secondItem="aCl-gP-lDf" secondAttribute="trailing" constant="-113" id="jdS-Q8-Y0e"/>
+                            <constraint firstItem="Rbo-dr-ElG" firstAttribute="centerX" secondItem="TzE-tW-aW7" secondAttribute="centerX" multiplier="8/5" id="jej-7m-yU7"/>
+                            <constraint firstItem="vF4-0l-Vcv" firstAttribute="width" secondItem="TzE-tW-aW7" secondAttribute="width" multiplier="7/12" id="kIg-XS-vjb"/>
+                            <constraint firstItem="dOi-eE-KlJ" firstAttribute="width" secondItem="TzE-tW-aW7" secondAttribute="width" multiplier="1/4" id="qYa-vs-oqy"/>
+                            <constraint firstAttribute="trailing" secondItem="TzE-tW-aW7" secondAttribute="trailing" id="tFj-NX-cJ1"/>
+                            <constraint firstItem="TzE-tW-aW7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vAi-7m-dG9"/>
+                            <constraint firstItem="GfF-mw-ceG" firstAttribute="width" secondItem="TzE-tW-aW7" secondAttribute="width" multiplier="2/5" id="vrg-TR-XN3"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="371" y="285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BGimage.png" width="375" height="667"/>
+        <image name="Note.png" width="90" height="85"/>
+        <image name="ball.png" width="59" height="61"/>
+        <image name="dog.png" width="99" height="185"/>
+        <image name="map.png" width="162" height="235"/>
+        <image name="日曆.png" width="103" height="106"/>
+        <image name="書櫃 + books.png" width="246" height="174"/>
+        <image name="燈.png" width="109" height="207"/>
+    </resources>
 </document>
