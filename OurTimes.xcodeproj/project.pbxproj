@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440024161BD76A5B00249078 /* Calender.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440024151BD76A5B00249078 /* Calender.storyboard */; settings = {ASSET_TAGS = (); }; };
+		440024181BD76A7000249078 /* Note.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440024171BD76A7000249078 /* Note.storyboard */; settings = {ASSET_TAGS = (); }; };
 		4403FCB21BC3F18E00974B7B /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4403FCB11BC3F18E00974B7B /* Map.storyboard */; };
 		C1F10AE01BB3D4AB0094CBB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F10ADF1BB3D4AB0094CBB1 /* main.m */; };
 		C1F10AE31BB3D4AB0094CBB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F10AE21BB3D4AB0094CBB1 /* AppDelegate.m */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		440024151BD76A5B00249078 /* Calender.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calender.storyboard; sourceTree = "<group>"; };
+		440024171BD76A7000249078 /* Note.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Note.storyboard; sourceTree = "<group>"; };
 		4403FCB11BC3F18E00974B7B /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Map.storyboard; path = ../Map.storyboard; sourceTree = "<group>"; };
 		C1F10ADB1BB3D4AB0094CBB1 /* OurTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F10ADF1BB3D4AB0094CBB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				C1F10AE51BB3D4AB0094CBB1 /* ViewController.m */,
 				4403FCB11BC3F18E00974B7B /* Map.storyboard */,
 				C1F10AE71BB3D4AB0094CBB1 /* Main.storyboard */,
+				440024151BD76A5B00249078 /* Calender.storyboard */,
+				440024171BD76A7000249078 /* Note.storyboard */,
 				C1F10AED1BB3D4AB0094CBB1 /* Assets.xcassets */,
 				C1F10AEF1BB3D4AB0094CBB1 /* LaunchScreen.storyboard */,
 				C1F10AF21BB3D4AB0094CBB1 /* Info.plist */,
@@ -142,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440024161BD76A5B00249078 /* Calender.storyboard in Resources */,
 				C1F10AF11BB3D4AB0094CBB1 /* LaunchScreen.storyboard in Resources */,
+				440024181BD76A7000249078 /* Note.storyboard in Resources */,
 				C1F10AEE1BB3D4AB0094CBB1 /* Assets.xcassets in Resources */,
 				C1F10AE91BB3D4AB0094CBB1 /* Main.storyboard in Resources */,
 				4403FCB21BC3F18E00974B7B /* Map.storyboard in Resources */,
