@@ -34,22 +34,24 @@
 }
 
 - (IBAction)mapButton:(id)sender {
+    
+    [self presentToStoryBoardWithName:@"Map" VCName:@"MapViewController"];
 }
 
 -(void)presentToStoryBoardWithName:(NSString*)name
-                     segueName:(NSString*)segue{
+                     VCName:(NSString*)VCName{
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:name bundle:nil];
     
-    id targetVC = [storyboard instantiateViewControllerWithIdentifier:segue];
+    id targetVC = [storyboard instantiateViewControllerWithIdentifier:VCName];
     
     [self presentViewController:targetVC animated:true completion:nil];
 }
 
 -(void)pushToStoryBoardWithName:(NSString*)name
-                      segueName:(NSString*)segue{
+                      VCName:(NSString*)VCName{
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:name bundle:nil];
     
-    id targetVC = [storyboard instantiateViewControllerWithIdentifier:segue];
+    id targetVC = [storyboard instantiateViewControllerWithIdentifier:VCName];
     
     [self.navigationController pushViewController:targetVC animated:true];
 }

@@ -19,6 +19,13 @@
 		440024291BD7829C00249078 /* Note.png in Resources */ = {isa = PBXBuildFile; fileRef = 440024201BD7829C00249078 /* Note.png */; settings = {ASSET_TAGS = (); }; };
 		4400242A1BD7829C00249078 /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 440024211BD7829C00249078 /* photos.png */; settings = {ASSET_TAGS = (); }; };
 		4403FCB21BC3F18E00974B7B /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4403FCB11BC3F18E00974B7B /* Map.storyboard */; };
+		4448AB191BD79AA800BE9F81 /* Taiwan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4448AB141BD79AA800BE9F81 /* Taiwan.png */; settings = {ASSET_TAGS = (); }; };
+		4448AB1A1BD79AA800BE9F81 /* Taiwan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4448AB151BD79AA800BE9F81 /* Taiwan@2x.png */; settings = {ASSET_TAGS = (); }; };
+		4448AB1B1BD79AA800BE9F81 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448AB171BD79AA800BE9F81 /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4448AB1C1BD79AA800BE9F81 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4448AB181BD79AA800BE9F81 /* Property List.plist */; settings = {ASSET_TAGS = (); }; };
+		4448AB231BD79AE200BE9F81 /* MapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448AB1E1BD79AE200BE9F81 /* MapOverlay.m */; settings = {ASSET_TAGS = (); }; };
+		4448AB241BD79AE200BE9F81 /* MapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448AB201BD79AE200BE9F81 /* MapOverlayView.m */; settings = {ASSET_TAGS = (); }; };
+		4448AB251BD79AE200BE9F81 /* Taiwan.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448AB221BD79AE200BE9F81 /* Taiwan.m */; settings = {ASSET_TAGS = (); }; };
 		C1F10AE01BB3D4AB0094CBB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F10ADF1BB3D4AB0094CBB1 /* main.m */; };
 		C1F10AE31BB3D4AB0094CBB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F10AE21BB3D4AB0094CBB1 /* AppDelegate.m */; };
 		C1F10AE61BB3D4AB0094CBB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F10AE51BB3D4AB0094CBB1 /* ViewController.m */; };
@@ -41,6 +48,17 @@
 		440024201BD7829C00249078 /* Note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Note.png; sourceTree = "<group>"; };
 		440024211BD7829C00249078 /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
 		4403FCB11BC3F18E00974B7B /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Map.storyboard; path = ../Map.storyboard; sourceTree = "<group>"; };
+		4448AB141BD79AA800BE9F81 /* Taiwan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Taiwan.png; sourceTree = "<group>"; };
+		4448AB151BD79AA800BE9F81 /* Taiwan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Taiwan@2x.png"; sourceTree = "<group>"; };
+		4448AB161BD79AA800BE9F81 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4448AB171BD79AA800BE9F81 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		4448AB181BD79AA800BE9F81 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		4448AB1D1BD79AE200BE9F81 /* MapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOverlay.h; sourceTree = "<group>"; };
+		4448AB1E1BD79AE200BE9F81 /* MapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapOverlay.m; sourceTree = "<group>"; };
+		4448AB1F1BD79AE200BE9F81 /* MapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOverlayView.h; sourceTree = "<group>"; };
+		4448AB201BD79AE200BE9F81 /* MapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapOverlayView.m; sourceTree = "<group>"; };
+		4448AB211BD79AE200BE9F81 /* Taiwan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taiwan.h; sourceTree = "<group>"; };
+		4448AB221BD79AE200BE9F81 /* Taiwan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Taiwan.m; sourceTree = "<group>"; };
 		C1F10ADB1BB3D4AB0094CBB1 /* OurTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F10ADF1BB3D4AB0094CBB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1F10AE11BB3D4AB0094CBB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +86,8 @@
 		4400242B1BD782A400249078 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				4448AB141BD79AA800BE9F81 /* Taiwan.png */,
+				4448AB151BD79AA800BE9F81 /* Taiwan@2x.png */,
 				440024191BD7829C00249078 /* 日曆.png */,
 				4400241A1BD7829C00249078 /* 書櫃 + books.png */,
 				4400241B1BD7829C00249078 /* 燈.png */,
@@ -79,6 +99,37 @@
 				440024211BD7829C00249078 /* photos.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		4448AB261BD79AF300BE9F81 /* Mobel */ = {
+			isa = PBXGroup;
+			children = (
+				4448AB211BD79AE200BE9F81 /* Taiwan.h */,
+				4448AB221BD79AE200BE9F81 /* Taiwan.m */,
+			);
+			name = Mobel;
+			sourceTree = "<group>";
+		};
+		4448AB271BD79B0800BE9F81 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				4448AB1D1BD79AE200BE9F81 /* MapOverlay.h */,
+				4448AB1E1BD79AE200BE9F81 /* MapOverlay.m */,
+				4448AB1F1BD79AE200BE9F81 /* MapOverlayView.h */,
+				4448AB201BD79AE200BE9F81 /* MapOverlayView.m */,
+			);
+			name = Overlays;
+			sourceTree = "<group>";
+		};
+		4448AB281BD79B1800BE9F81 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				4448AB271BD79B0800BE9F81 /* Overlays */,
+				4448AB261BD79AF300BE9F81 /* Mobel */,
+				4448AB161BD79AA800BE9F81 /* MapViewController.h */,
+				4448AB171BD79AA800BE9F81 /* MapViewController.m */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 		C1F10AD21BB3D4AB0094CBB1 = {
@@ -100,6 +151,7 @@
 		C1F10ADD1BB3D4AB0094CBB1 /* OurTimes */ = {
 			isa = PBXGroup;
 			children = (
+				4448AB281BD79B1800BE9F81 /* Map */,
 				4400242B1BD782A400249078 /* images */,
 				C1F10AE11BB3D4AB0094CBB1 /* AppDelegate.h */,
 				C1F10AE21BB3D4AB0094CBB1 /* AppDelegate.m */,
@@ -112,6 +164,7 @@
 				C1F10AED1BB3D4AB0094CBB1 /* Assets.xcassets */,
 				C1F10AEF1BB3D4AB0094CBB1 /* LaunchScreen.storyboard */,
 				C1F10AF21BB3D4AB0094CBB1 /* Info.plist */,
+				4448AB181BD79AA800BE9F81 /* Property List.plist */,
 				C1F10AEA1BB3D4AB0094CBB1 /* OurTimes.xcdatamodeld */,
 				C1F10ADE1BB3D4AB0094CBB1 /* Supporting Files */,
 			);
@@ -183,7 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4448AB1C1BD79AA800BE9F81 /* Property List.plist in Resources */,
 				4400242A1BD7829C00249078 /* photos.png in Resources */,
+				4448AB191BD79AA800BE9F81 /* Taiwan.png in Resources */,
 				440024271BD7829C00249078 /* dog.png in Resources */,
 				440024161BD76A5B00249078 /* Calender.storyboard in Resources */,
 				440024281BD7829C00249078 /* map.png in Resources */,
@@ -191,6 +246,7 @@
 				C1F10AF11BB3D4AB0094CBB1 /* LaunchScreen.storyboard in Resources */,
 				440024181BD76A7000249078 /* Note.storyboard in Resources */,
 				C1F10AEE1BB3D4AB0094CBB1 /* Assets.xcassets in Resources */,
+				4448AB1A1BD79AA800BE9F81 /* Taiwan@2x.png in Resources */,
 				C1F10AE91BB3D4AB0094CBB1 /* Main.storyboard in Resources */,
 				440024231BD7829C00249078 /* 書櫃 + books.png in Resources */,
 				440024251BD7829C00249078 /* ball.png in Resources */,
@@ -209,9 +265,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F10AE61BB3D4AB0094CBB1 /* ViewController.m in Sources */,
+				4448AB231BD79AE200BE9F81 /* MapOverlay.m in Sources */,
 				C1F10AEC1BB3D4AB0094CBB1 /* OurTimes.xcdatamodeld in Sources */,
+				4448AB1B1BD79AA800BE9F81 /* MapViewController.m in Sources */,
+				4448AB241BD79AE200BE9F81 /* MapOverlayView.m in Sources */,
 				C1F10AE31BB3D4AB0094CBB1 /* AppDelegate.m in Sources */,
 				C1F10AE01BB3D4AB0094CBB1 /* main.m in Sources */,
+				4448AB251BD79AE200BE9F81 /* Taiwan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

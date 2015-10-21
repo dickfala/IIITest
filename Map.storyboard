@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="FT5-8Y-W7L">
+            <objects>
+                <viewController storyboardIdentifier="MapViewController" id="TGA-SE-ahG" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4ZC-qV-kzI"/>
+                        <viewControllerLayoutGuide type="bottom" id="j4n-DJ-anc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vcP-Ex-YGg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iQO-Ce-1pm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iQO-Ce-1pm" firstAttribute="top" secondItem="vcP-Ex-YGg" secondAttribute="top" id="Dlk-u2-Gne"/>
+                            <constraint firstItem="j4n-DJ-anc" firstAttribute="top" secondItem="iQO-Ce-1pm" secondAttribute="bottom" id="NuC-ff-ejo"/>
+                            <constraint firstAttribute="trailing" secondItem="iQO-Ce-1pm" secondAttribute="trailing" id="dAR-pc-loy"/>
+                            <constraint firstItem="iQO-Ce-1pm" firstAttribute="leading" secondItem="vcP-Ex-YGg" secondAttribute="leading" id="qEf-GP-wBO"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="myMap" destination="iQO-Ce-1pm" id="S1T-di-vnV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWn-s7-Jb5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="445"/>
+        </scene>
+    </scenes>
 </document>
