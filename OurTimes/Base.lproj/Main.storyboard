@@ -66,7 +66,7 @@
                                 </constraints>
                                 <state key="normal" image="ball.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vF4-0l-Vcv">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vF4-0l-Vcv">
                                 <rect key="frame" x="3" y="429" width="242" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vF4-0l-Vcv" secondAttribute="height" multiplier="41:29" id="Yft-nA-edd"/>

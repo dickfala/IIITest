@@ -17,7 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+        //開啓資料庫
+    [self openDB];
+    // 建立資料表
+    [self createTable];
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -123,5 +128,47 @@
         }
     }
 }
+- (BOOL) openDB{
+    // 取得文件資料夾
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *docsPath = [paths objectAtIndex:0];
+    NSString *path = [docsPath stringByAppendingPathComponent:@"database.db"];
+    
+    
+    _db = [FMDatabase databaseWithPath:path];
+    
+    
+    NSLog(@"DB=%@", _db);
+    if (_db) {
+        NSLog(@"DB Open");
+    }else{
+        NSLog(@"DB Fail");
+    }
+    return 0;
+}
 
+- (BOOL) createTable{
+    [_db open]; //開啓資料庫連線
+    
+    
+    NSString *theNote =[NSString stringWithFormat:@"CREATE TABLE IF NOT EXISTS theNote(%@ text , %@ text, %@ text, %@ text,%@ primary key)",
+                        @"date", @"content",@"location",@"image" ,@"ID"];
+    NSString *theEvent =[NSString stringWithFormat:@"CREATE TABLE IF NOT EXISTS theEvent(%@ text , %@ text, %@ primary key)",
+                         @"date", @"event", @"myNumber"];
+
+    BOOL check = [_db executeUpdate:theNote];
+    BOOL checke = [_db executeUpdate:theEvent];
+    if (check) {
+        NSLog(@"theNote create OK");
+    }else{
+        NSLog(@"create Fail");
+    }
+    if (checke) {
+        NSLog(@"theEvent create OK");
+    }else{
+        NSLog(@"create Fail");
+    }
+    [_db close];  //關閉資料庫連線
+    return check;
+}
 @end
