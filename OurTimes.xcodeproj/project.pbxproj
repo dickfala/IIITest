@@ -296,11 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F10AE61BB3D4AB0094CBB1 /* ViewController.m in Sources */,
-<<<<<<< HEAD
+
 				4448AB231BD79AE200BE9F81 /* MapOverlay.m in Sources */,
-=======
+
 				74B82CA71BD79931000132E3 /* FMDatabaseQueue.m in Sources */,
->>>>>>> 6e90a240952e4cfc0354dccb7dc658b1903b142f
 				C1F10AEC1BB3D4AB0094CBB1 /* OurTimes.xcdatamodeld in Sources */,
 				4448AB1B1BD79AA800BE9F81 /* MapViewController.m in Sources */,
 				4448AB241BD79AE200BE9F81 /* MapOverlayView.m in Sources */,
@@ -309,11 +308,11 @@
 				74B82CA61BD79931000132E3 /* FMDatabasePool.m in Sources */,
 				74B82CA81BD79931000132E3 /* FMResultSet.m in Sources */,
 				C1F10AE01BB3D4AB0094CBB1 /* main.m in Sources */,
-<<<<<<< HEAD
+
 				4448AB251BD79AE200BE9F81 /* Taiwan.m in Sources */,
-=======
+
 				74B82CA51BD79931000132E3 /* FMDatabaseAdditions.m in Sources */,
->>>>>>> 6e90a240952e4cfc0354dccb7dc658b1903b142f
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
